@@ -1,0 +1,7 @@
+.my-map {
+    border-radius: 100%;
+}
+.appointment_container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

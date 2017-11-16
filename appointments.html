@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> </title>
+    <script src="bootstrap.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+   <link rel="js" type="text/css" href="js/main.js"/>
+  </head>
+  <body>
+    <!--navigation bar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="img/lotus_white.png" class="lotus" /><span class="brand ml-3">Spa on the Hudson</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+
+        <a class="nav-item nav-link dropdown-toggle" href="service.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item text-light" href="mind.html">Mind</a>
+          <a class="dropdown-item text-light" href="body.html">Body</a>
+          <a class="dropdown-item text-light" href="soul.html">Soul</a>
+        </div>
+        <a class="nav-item nav-link active" href="appointments.html">Appointments</a>
+        <a class="nav-item nav-link" href="about.html">About</a>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <body>
+  
+  <div class="container service">
+      <div class="row justify-content-center">
+          <h1 class="mt-5 mb-3 text-uppercase">Reserve Some Quality Time for Yourself</h1>
+      </div>
+      <div class="row justify-content-around">
+        <div class="card col-10 col-md-5 col-xl-3 mb-3 text-center d-none d-lg-block bg-none">
+             <img src="img/massage/wellness-stone_1023x732px.jpg" class="card-img-top mt-3" alt="">
+        <div class="card-body"></div>
+        </div>
+        
+        <div class="card col-10 col-md-5 col-xl-3 mb-3 text-center">
+            <img src="img/massage/reflexology-toes_1920.jpg" class="card-img-top mt-3" alt="">
+            <div class="card-body"></div>
+        </div>
+           
+        <div class="card col-10 col-md-5 col-xl-3 mb-3 text-center d-none d-lg-block">
+            <img src="img/massage/massage.png" class="card-img-top mt-3" alt="">
+              <div class="card-body"></div>
+          </div>
+      </div>
+</div>
+
+
+
+
+
+
+<div class="card card-outline-primary mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+<!-- <div class="appointment_container"> -->
+<fieldset>
+    <legend>Type of Service</legend>
+     <form>
+<ul class="appointment_list-group">
+    <id="appointment_services_selection_list">Select the Service:</id>
+    <select  id="appoint_services_question_list">
+      <option value="red">Anapanasati (60 minutes) $75</option>
+      <option value="red">Metta Bhavana (60 minutes) $85</option>
+      <option value="red">Creative Visualization (60 minutes) $85</option>
+      <option value="purple">Swedish Massage (60 minutes) $125</option>
+      <option value="purple">Shiatsu (Deep Tissue) Massage (60 minutes) $135</option>
+      <option value="purple">Hot Stone Massage (60 minutes) $155</option>
+      <option value="purple">Reflexology (60 minutes) $135</option>
+      <option value="orange">Reiki (60 minutes) $185</option>
+      <option value="orange">Labyrinth Walks (30 minutes) $60</option>
+      <option value="orange">Laughter Therapy (30 minutes) $60</option>
+    </select>
+</ul>
+</form>
+</fieldset>
+    </blockquote>
+  </div>
+</div>
+<div class="card card-outline-secondary mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+   <fieldset>
+    <legend>Date and Time Preference</legend>
+  <form>
+<b>First Preference:</b>
+<br>
+<label for="appt-time">Choose a date and time: </label>
+<input type="date" id="preference" name="preference" placeholder="mm/dd/yyyy" size="20" />
+<input id="appt-time" type="time" name="appt-time" value="12:00">
+<!--SUBMIT BUTTON <input type="button" value="Submit" name="B1"> -->
+</form>
+<!--Second Prefernce Date-->
+<form>
+<b>Second Preference:</b>
+<br>
+<label for="appt-time">Choose a date and time: </label>
+<input type="date" id="preference" name="preference" placeholder="mm/dd/yyyy" size="20" />
+<input id="appt-time" type="time" name="appt-time" value="12:00">
+<!--SUBMIT BUTTON <input type="button" value="Submit" name="B1"> -->
+</form>
+<!--Third Prefernce Date--> 
+<form>
+<b>Third Preference:</b>
+<br>
+<label for="appt-time">Choose a date and time: </label>
+<input type="date" id="preference" name="preference" placeholder="mm/dd/yyyy" size="20" />
+<input id="appt-time" type="time" name="appt-time" value="12:00">
+<!--SUBMIT BUTTON <input type="button" value="Submit" name="B1"> -->
+  </form>
+</fieldset>   
+    </blockquote>
+  </div>
+</div>
+
+<div class="card card-outline-success mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+  <form action="" method="GET">
+  <fieldset>
+    <legend>Personal Details</legend>
+      <input type="radio" name="title_of_person" value="Ms." checked>Ms. 
+      <input type="radio" name="title_of_person" value="Mrs.">Mrs.
+      <input type="radio" name="title_of_person" value="Mr.">Mr.
+  <br>
+    <p><label for="name">First Name: </label><input type="text" name="name" id="name" required placeholder="Your First Name" pattern="[a-zA-Z]{2,}" title="Please enter your first name"></p> <!--value="fName"-->
+    <p><label for="name">Last Name: </label><input type="text" name="name" id="name" required placeholder="Your Last Name" pattern="[a-zA-Z]{2,}" title="Please enter your last name"></p> <!--value="lName"-->
+    <p><label for="email">Email: </label><input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-z A-Z]{2,}@[a-z A-Z]{2,}[.]{1}[a-z A-Z]{2,}" title="Please enter in a valid email address"></p><!--value="abc@gmail.com-->
+    <p><label for="phone">Phone: </label><input type="tel" name="phone" id="phone" required placeholder="Your Phone Number" pattern="[0-9]{3,} [0-9]{3,} [0-9]{3,}" title="Please enter in a valid phone number in this format: ### ### ####"></p><!--value="123 123 1234-->
+  <label for="numberOfGuests">Number of Guests (Yourself Included): </label><input id="NumberOfGuests" type="number" name="numberOfGuests" placeholder="1" min="1" max="6">
+  <p>Do you require special accommodations or requests?
+    <label for="yesAccommodations">Yes: </label><input id="yesAccommodations" type="radio" name="accommodations" value="yesAccommodations">
+    <label for="noAccommodations">No: </label><input id="noAccommodations" type="radio" name="accommodations" value="noAccommodations">
+    </p>
+    <div class="messageBox">
+   <label for="message">Request</label><br>
+   <textarea id="message" cols="80" rows="8" placeholder="Please explain any special accommodations."></textarea>
+ </div>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card card-outline-info mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+<!--Simple Modal -->
+<button id="modalBtn" type="button" class="appointment_button btn btn-primary">Submit</button>
+  <div id=simpleModal class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="closeBtn">&times;</span> 
+        <h2>Your booking request has been sent.</h2>
+      </div>
+      <div class="modal-body">
+        <p>You will receive an email confirmation within 24 hours. Be sure to reply to the email to ensure your apointment date and time. Any changes, please give us 24 hours notice.</p>
+      </div>
+       <div class="modal-footer">
+         <h3>We look forward to seeing you!</h3>
+    </div>
+  </div>
+  </div>
+    </blockquote>
+  </div>
+</div>
+
+
+<!--Calendar Website Ends---http://www.javascriptkit.com/javatutors/createelementcheck2.shtml -->
+
+<!--COLOR___Nav: GREEN, Aside: PINK, Article: BLUE ------_________-------------_____--------______--------
+    </article>
+    <nav>Nav
+    
+--> 
+<!--<br>
+  <form action="" method="GET">
+  <fieldset>
+    <legend>Personal Details</legend>
+      <input type="radio" name="title_of_person" value="Ms." checked>Ms. 
+      <input type="radio" name="title_of_person" value="Mrs.">Mrs.
+      <input type="radio" name="title_of_person" value="Mr.">Mr.
+  <br>
+    <p><label for="name">First Name: </label><input type="text" name="name" id="name" required placeholder="Your First Name" pattern="[a-zA-Z]{2,}" title="Please enter your first name" value="fName"></p>
+    <p><label for="name">Last Name: </label><input type="text" name="name" id="name" required placeholder="Your Last Name" pattern="[a-zA-Z]{2,}" title="Please enter your last name" value="lName"></p>
+    <p><label for="email">Email: </label><input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-z A-Z]{2,}@[a-z A-Z]{2,}[.]{1}[a-z A-Z]{2,}" title="Please enter in a valid email address" value="abc@gmail.com"></p>
+    <p><label for="phone">Phone: </label><input type="tel" name="phone" id="phone" required placeholder="Your Phone Number" pattern="[0-9]{3,} [0-9]{3,} [0-9]{3,}" title="Please enter in a valid phone number in this format: ### ### ####" value="123 123 1234"></p>
+  <label for="numberOfGuests">Number of Guests (Yourself Included): </label><input id="NumberOfGuests" type="number" name="numberOfGuests" placeholder="1" min="1" max="6">
+  <p>Do you require special accommodations or requests?
+    <label for="yesAccommodations">Yes: </label><input id="yesAccommodations" type="radio" name="accommodations" value="yesAccommodations">
+    <label for="noAccommodations">No: </label><input id="noAccommodations" type="radio" name="accommodations" value="noAccommodations">
+    </p>
+    <div class="messageBox">
+   <label for="message">Request</label><br>
+   <textarea id="message" cols="80" rows="8" placeholder="Please explain any special accommodations."></textarea>
+ </div>
+    <br>
+  <!--<label for="yesWheelchairAccessibility">Yes, wheelchair accessibility: </label><input id="yesWheelchairAccessibility" type="checkbox" name="wheelchair accessibility" value="yes" checked>Yes -->
+    <!-- <br>
+    <input type="submit" value="Send Request" name="B1">
+    <br>
+  </fieldset>
+
+<!--Simple Modal -->
+<!--<button id="modalBtn" type="button" class="appointment_button">Submit</button>
+  <div id=simpleModal class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="closeBtn">&times;</span> 
+        <h2>Your booking request has been sent.</h2>
+      </div>
+      <div class="modal-body">
+        <p>You will receive an email confirmation within 24 hours. Be sure to reply to the email to ensure your apointment date and time. Any changes, please give us 24 hours notice.</p>
+      </div>
+       <div class="modal-footer">
+         <h3>We look forward to seeing you!</h3>
+    </div>
+  </div>
+  </div>
+<br>
+
+-->
+
+<script>
+var modal = document.getElementById('simpleModal');
+var modalBtn = document.getElementById('modalBtn');
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+function openModal() {
+  modal.style.display ='block';
+}
+
+function closeModal() {
+  modal.style.display ='none';
+}
+
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display ='none';
+  }
+}
+
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+</script>  
+
+<!--
+
+<br>
+<div class="address plus map">
+  <style>
+  * 
+#header {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+}
+
+#container {
+    width: 300px;
+    background-color: #ffcc33;
+    margin: auto;
+}
+#first {
+    width: 100px;
+    float: left;
+    height: 300px;
+    background-color: blue;
+}
+#second {
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: green;
+}
+#clear {
+    clear: both;
+}
+</style>
+ 
+  <!--<div class="col-xs-6 col-sm-4 col-lg-3"> -->
+    <div class="footer text-center mt-5">
+      <h4>Spa on the Hudson</h4>
+      <p>1234 NYPL Way<br>
+      Hudson, Trondra Lisica</p>
+      <p>+12 345 67 89</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

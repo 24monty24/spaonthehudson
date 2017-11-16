@@ -1,0 +1,199 @@
+/* Coolors Exported Palette - coolors.co/88f7e7-204581-186984-86ceb9-2cb6b7 */
+
+/*Use this font for text and sub-headers:font-family: 'Arimo', sans-serif;*/
+
+@media only screen and (min-width: 576px) {
+  .galada {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 676px) {
+  .galada{
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .galada {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .galada {  
+    font-size: 7rem;
+  }
+}
+
+
+body{
+    color: black;
+    font-family: Arimo, Verdana, sans-serif;
+    background-image: url(../img/test.jpg);
+    /*background-color: grey;*/
+}
+
+.lotus {
+    height: 50px;
+}
+
+.jumbotron {
+  background-image: url(../img/water/aqua-pool.jpg);
+}
+
+.galada {
+    font-family: 'Galada', cursive;  
+}
+
+.quote {
+  font-family: 'Galada', cursive;
+}
+
+.c186984 {
+  background-color: #186984; /*teal*/
+}
+
+.c007554 {
+  background-color: #007554; /*emerald*/
+}
+
+.c2cb6b7 {
+  background-color: #2cb6b7; /*aqua*/
+}
+
+.c204581 {
+  background-color: #204581; /*cobalt*/
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.brand {
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background-color: #186984;
+  border: 0px;
+}
+
+/*Services.html*/
+/*.box img {*/
+/*  width: 200px;*/
+/*  height: 200px;*/
+/*}*/
+/*.card{*/
+/*  background-color: grey;*/
+/*}*/
+.header-border {
+      border: .5px solid red;
+}
+
+/*appointments.html*/
+
+/*
+.appointment_container {
+  background-color: #007554; /*green*/
+/*  padding: 100px;
+  margin: 50px 150px 50px 150px;
+  border: 0;
+  font-family: Arimo, Verdana, sans-serif;
+  color: #A9A9A9; */ /*dark grey*/
+/* } 
+*/
+
+textarea {
+  max-width: 95%;
+}
+
+select {
+  max-width: 95%;
+}
+.card-blockquote {
+  padding-top: 10px;
+  max-width: 95%;
+}
+
+.appointment_list-group {
+  list-style:none;
+  padding-left:0;
+}
+
+.appointment_button {
+  background: #86CEB9; /*seagreen Submit button displayed without hover*/
+  padding: 1em 2em;
+  color: #186984; /*teal Submit button displayed with hover*/
+  border: 0;
+}
+
+.appointment_button:hover {
+  background: #204581; /*cobalt*/
+} 
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: RGBA(0,0,0,0.5); /*color outside the modal once it pops up*/
+}
+
+.modal-content{ /*Modal Pop-up confirmation popping up at the bottom by the Submit Button*/ 
+  background-color: #F4F4F4; /*red*/
+  margin: 30% auto;
+  width: 80%;
+  /*box-shadow: 0 5px 8px 0 RGBA(0,0,0, 0.2), 0 7px 20px 0 RGBA(0,0,0, 0.17);*/
+  /*animation-name: modalopen;*/
+  /*animation-duration: 1s;*/
+}
+
+
+.modal-header h2, .modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header{
+  background: #2CB6B7; /*aqua*/
+  padding: 15px;
+  color: #204581; /*cobalt color: "Your booking information has been sent." */ 
+  font-family: Arimo, Verdana, sans-serif;
+}
+
+.modal-body{
+  padding: 10px 20px;
+}
+
+.modal-footer{
+  background: #2CB6B7; /*aqua*/
+  padding: 10px;
+  color: #204581; /*cobalt color: "We look forward to seeing you!" */ 
+  text-align: center;
+  font-family: Arimo, Verdana, sans-serif;
+}
+
+.closedBtn {
+  color: #CCCCCC; /*light grey*/
+  float: right;
+  font-size: 30px;
+}
+
+.closedBtn:hover, .closedBtn:focus {
+  color: #CCCCCC; /*light grey*/
+  /* color: #00000; /*black color: "You will receive an email confirmation within 24 hours. Be sure to reply to the email to ensure your apointment date and time. Any changes, please give us 24 hours notice."  */ 
+  text-decoration: none;
+  cursor:pointer;
+  font-family: Arimo, Verdana, sans-serif;
+}
+
+
+/*@keyframes modalopen {*/
+/*  from{opacity: 0}*/
+/*  to{opacity: 1};*/
+/*}*/
+
